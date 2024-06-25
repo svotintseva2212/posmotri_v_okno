@@ -46,8 +46,8 @@ ol {
 .content {
   display: grid;
   grid-template-columns: 711px 399px;
-  flex-direction: row;
   justify-content: center;
+  align-items: end;
   gap: 30px;
   width: 100%;
   height: 100%;
@@ -56,8 +56,8 @@ ol {
 /* ЛЕВАЯ СЕКЦИЯ */
 
 .result {
-  width: 711px;
-  margin-top: 73px;
+  width: 100%;
+  padding: 0px 0px 2px 0px;
 }
 
 /* Видео */
@@ -102,7 +102,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.6px;
@@ -203,7 +203,7 @@ ol {
 .button {
   cursor: pointer;
   display: block;
-  height: 34px;
+  min-height: 34px;
   color: #fff;
   background-color: transparent;
   border: 1px solid currentColor;
@@ -238,7 +238,6 @@ ol {
 
 .more-button {
   width: 399px;
-  margin-bottom: 2px;
 }
 
 /* ПРАВАЯ СЕКЦИЯ */
@@ -255,7 +254,7 @@ ol {
 
 .title {
   display: block;
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 93%;
@@ -341,7 +340,6 @@ ol {
   white-space: nowrap; 
   overflow: hidden;
   max-height: 200px;
-  padding: 0px 0px 0px 0px;
 }
 
 /* Описание карточки */
