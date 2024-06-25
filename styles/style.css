@@ -45,7 +45,7 @@ ol {
 
 .content {
   display: grid;
-  grid-template-columns: 711px 399px;
+  grid-template-columns: 711px auto;
   justify-content: center;
   align-items: end;
   gap: 30px;
@@ -93,6 +93,7 @@ ol {
   display: flex;
   justify-content: flex-start;
   gap: 40px;
+  padding-bottom: 2px;
 }
 
 .search-form__fieldset {
@@ -113,6 +114,7 @@ ol {
 .search-form__label {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 5px;
   width: fit-content;
   cursor: pointer;
@@ -280,7 +282,7 @@ ol {
   position: relative;
   height: 298px;
   overflow: auto;
-
+  padding: 2px 2px;
 }
 
 .content__list-item:not(:last-child) {
